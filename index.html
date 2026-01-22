@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Scaty3D.JS</title>
+
+<style>
+/* Genel ayarlar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* sans-serif */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        120deg,
+        rgba(220, 200, 255, 0.99),
+        rgba(200, 180, 255, 0.99),
+        rgba(230, 210, 255, 0.99)
+    );
+    background-size: 400% 400%;
+    animation: bgMove 12s ease infinite;
+}
+
+/* Arka plan animasyonu */
+@keyframes bgMove {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* İçerik alanı */
+.container {
+    text-align: center;
+    color: #2a004f;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Logo */
+.container img {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+/* Başlıklar */
+h1 {
+    margin: 15px 0;
+    font-size: 28px;
+}
+
+/* Paragraflar */
+p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <img src="logo.png" alt="Logo">
+    <h1>Scaty3D.JS nedir?</h1>
+    <p>Scaty3D.JS, WebGL çerçevesi olan bir 3D JavaScript motorudur. SWO tarafından kurulmuştur.</p>
+
+    <h1>Scaty3D.JS'yi deneyin!</h1>
+    <p>link:</p>
+
+    <p>© SWO 2026 Tüm Hakları Saklıdır</p>
+</div>
+
+</body>
+</html>
