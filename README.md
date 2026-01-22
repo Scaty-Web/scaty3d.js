@@ -1,0 +1,1 @@
+# scaty3d.js
